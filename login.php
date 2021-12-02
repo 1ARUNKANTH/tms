@@ -1,7 +1,7 @@
 <?php session_start();
  require "db.php";
 
-   if(isset($_POST['email'])){
+     if(isset($_POST['email'])){
        $Email=$_POST['email'];
        $Password=md5($_POST['password']);
 
